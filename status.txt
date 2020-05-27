@@ -1,0 +1,5 @@
+Multicasting works for VC size less than packet size also
+Use read write for unicast messages works now. It is a booksim config parameter. Make sure VC size is 16 when using this feature.
+
+
+Reply messages do not merge for multicast messages as of yet. They are sent back as individual responses to the source

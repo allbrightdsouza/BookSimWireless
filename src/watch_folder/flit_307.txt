@@ -1,0 +1,658 @@
+100 | node218 | Enqueuing flit 307 (packet 76) at time 100 to node -1 | mcast 1.
+103 | node218 | Injecting flit 307 into subnet 0 at time 103 with priority 0.
+104 | network_0/network_0_fchan_ingress218 | Beginning channel traversal for flit 307 with delay 1.
+104 | network_0/network_0_fchan_ingress218 | Completed channel traversal for flit 307.
+105 | network_0/router_13_10 | Received flit 307 from channel at input 4.
+105 | network_0/router_13_10 | Adding flit 307 to VC 0 at input 4 (state: active, front: 304).
+108 | network_0/router_13_10 | Beginning switch allocation for VC 0 at input 4 (front: 307).
+108 | network_0/router_13_10 |   Requesting output 0.0 (non-spec, pri: 0).
+108 | network_0/router_13_10 | Beginning switch allocation for VC 0 at input 4 (front: 307).
+108 | network_0/router_13_10 |   Requesting output 1.0 (non-spec, pri: 0).
+108 | network_0/router_13_10 | Beginning switch allocation for VC 0 at input 4 (front: 307).
+108 | network_0/router_13_10 |   Requesting output 3.0 (non-spec, pri: 0).
+108 | network_0/router_13_10 | Assigning output 0.0 to VC 0 at input 4.0.
+108 | network_0/router_13_10 | Assigning output 1.0 to VC 0 at input 4.0.
+108 | network_0/router_13_10 | Assigning output 3.0 to VC 0 at input 4.0.
+108 | network_0/router_13_10 | Completed switch allocation for VC 0 at input 4 (front: 307).
+108 | network_0/router_13_10 |   Scheduling switch connection from input 4.0 to output 0.0.
+108 | node218 | Enqueuing Duplicate flit 311 (packet 77) at time 100.
+108 | Egress Duplicate flit 311 (packet 77) at output port0.
+108 | network_0/router_13_10 | Completed switch allocation for VC 0 at input 4 (front: 307).
+108 | network_0/router_13_10 |   Scheduling switch connection from input 4.0 to output 1.0.
+108 | node218 | Enqueuing Duplicate flit 315 (packet 78) at time 100.
+108 | Egress Duplicate flit 315 (packet 78) at output port1.
+108 | network_0/router_13_10 | Completed switch allocation for VC 0 at input 4 (front: 307).
+108 | network_0/router_13_10 |   Scheduling switch connection from input 4.0 to output 3.0.
+108 | node218 | Enqueuing Duplicate flit 307 (packet 76) at time 100.
+108 | Egress original flit 307 (packet 76) at output port3.
+108 | network_0/router_13_10 | Beginning crossbar traversal for flit 311 from input 4.0 to output 0.0.
+108 | network_0/router_13_10 | Beginning crossbar traversal for flit 315 from input 4.0 to output 1.0.
+108 | network_0/router_13_10 | Beginning crossbar traversal for flit 307 from input 4.0 to output 3.0.
+108 | network_0/router_13_10 | Completed crossbar traversal for flit 311 from input 4.0 to output 0.0.
+108 | network_0/router_13_10 | Buffering flit 311 at output 0.
+108 | network_0/router_13_10 | Completed crossbar traversal for flit 315 from input 4.0 to output 1.0.
+108 | network_0/router_13_10 | Buffering flit 315 at output 1.
+108 | network_0/router_13_10 | Completed crossbar traversal for flit 307 from input 4.0 to output 3.0.
+108 | network_0/router_13_10 | Buffering flit 307 at output 3.
+108 | network_0/router_13_10 | Sending flit 311 to channel at output 0.
+108 | network_0/router_13_10 | Sending flit 315 to channel at output 1.
+108 | network_0/router_13_10 | Sending flit 307 to channel at output 3.
+109 | network_0/network_0_fchan_872 | Beginning channel traversal for flit 311 with delay 1.
+109 | network_0/network_0_fchan_873 | Beginning channel traversal for flit 315 with delay 1.
+109 | network_0/network_0_fchan_875 | Beginning channel traversal for flit 307 with delay 1.
+109 | network_0/network_0_fchan_872 | Completed channel traversal for flit 311.
+109 | network_0/network_0_fchan_873 | Completed channel traversal for flit 315.
+109 | network_0/network_0_fchan_875 | Completed channel traversal for flit 307.
+110 | network_0/router_12_10 | Received flit 307 from channel at input 2.
+110 | network_0/router_13_9 | Received flit 315 from channel at input 0.
+110 | network_0/router_13_11 | Received flit 311 from channel at input 1.
+110 | network_0/router_12_10 | Adding flit 307 to VC 0 at input 2 (state: active, front: 304).
+110 | network_0/router_13_9 | Adding flit 315 to VC 0 at input 0 (state: active, front: 312).
+110 | network_0/router_13_11 | Adding flit 311 to VC 0 at input 1 (state: active, front: 308).
+113 | network_0/router_12_10 | Beginning switch allocation for VC 0 at input 2 (front: 307).
+113 | network_0/router_12_10 |   Requesting output 3.0 (non-spec, pri: 0).
+113 | network_0/router_12_10 | Assigning output 3.0 to VC 0 at input 2.0.
+113 | network_0/router_12_10 | Completed switch allocation for VC 0 at input 2 (front: 307).
+113 | network_0/router_12_10 |   Scheduling switch connection from input 2.0 to output 3.0.
+113 | node218 | Enqueuing Duplicate flit 307 (packet 76) at time 108.
+113 | Egress original flit 307 (packet 76) at output port3.
+113 | network_0/router_12_10 | Beginning crossbar traversal for flit 307 from input 2.0 to output 3.0.
+113 | network_0/router_12_10 | Completed crossbar traversal for flit 307 from input 2.0 to output 3.0.
+113 | network_0/router_12_10 | Buffering flit 307 at output 3.
+113 | network_0/router_13_9 | Beginning switch allocation for VC 0 at input 0 (front: 315).
+113 | network_0/router_13_9 |   Requesting output 1.0 (non-spec, pri: 0).
+113 | network_0/router_13_9 | Assigning output 1.0 to VC 0 at input 0.0.
+113 | network_0/router_13_9 | Completed switch allocation for VC 0 at input 0 (front: 315).
+113 | network_0/router_13_9 |   Scheduling switch connection from input 0.0 to output 1.0.
+113 | node218 | Enqueuing Duplicate flit 315 (packet 78) at time 108.
+113 | Egress original flit 315 (packet 78) at output port1.
+113 | network_0/router_13_9 | Beginning crossbar traversal for flit 315 from input 0.0 to output 1.0.
+113 | network_0/router_13_9 | Completed crossbar traversal for flit 315 from input 0.0 to output 1.0.
+113 | network_0/router_13_9 | Buffering flit 315 at output 1.
+113 | network_0/router_13_11 | Beginning switch allocation for VC 0 at input 1 (front: 311).
+113 | network_0/router_13_11 |   Requesting output 0.0 (non-spec, pri: 0).
+113 | network_0/router_13_11 | Beginning switch allocation for VC 0 at input 1 (front: 311).
+113 | network_0/router_13_11 |   Requesting output 5.0 (non-spec, pri: 0).
+113 | network_0/router_13_11 | Assigning output 0.0 to VC 0 at input 1.0.
+113 | network_0/router_13_11 | Assigning output 5.0 to VC 0 at input 1.0.
+113 | network_0/router_13_11 | Completed switch allocation for VC 0 at input 1 (front: 311).
+113 | network_0/router_13_11 |   Scheduling switch connection from input 1.0 to output 0.0.
+113 | node218 | Enqueuing Duplicate flit 371 (packet 92) at time 108.
+113 | Egress Duplicate flit 371 (packet 92) at output port0.
+113 | network_0/router_13_11 | Completed switch allocation for VC 0 at input 1 (front: 311).
+113 | network_0/router_13_11 |   Scheduling switch connection from input 1.0 to output 5.0.
+113 | node218 | Enqueuing Duplicate flit 311 (packet 77) at time 108.
+113 | Egress original flit 311 (packet 77) at output port5.
+113 | network_0/router_13_11 | Beginning crossbar traversal for flit 371 from input 1.0 to output 0.0.
+113 | network_0/router_13_11 | Beginning crossbar traversal for flit 311 from input 1.0 to output 5.0.
+113 | network_0/router_13_11 | Completed crossbar traversal for flit 371 from input 1.0 to output 0.0.
+113 | network_0/router_13_11 | Buffering flit 371 at output 0.
+113 | network_0/router_13_11 | Completed crossbar traversal for flit 311 from input 1.0 to output 5.0.
+113 | network_0/router_13_11 | Buffering flit 311 at output 5.
+113 | network_0/router_12_10 | Sending flit 307 to channel at output 3.
+113 | network_0/router_13_9 | Sending flit 315 to channel at output 1.
+113 | network_0/router_13_11 | Sending flit 371 to channel at output 0.
+113 | network_0/router_13_11 | Sending flit 311 to channel at output 5.
+114 | network_0/network_0_fchan_811 | Beginning channel traversal for flit 307 with delay 1.
+114 | network_0/network_0_fchan_869 | Beginning channel traversal for flit 315 with delay 1.
+114 | network_0/network_0_fchan_876 | Beginning channel traversal for flit 371 with delay 1.
+114 | network_0/network_0_fchan_1031 | Beginning channel traversal for flit 311 with delay 1.
+114 | network_0/network_0_fchan_811 | Completed channel traversal for flit 307.
+114 | network_0/network_0_fchan_869 | Completed channel traversal for flit 315.
+114 | network_0/network_0_fchan_876 | Completed channel traversal for flit 371.
+114 | network_0/network_0_fchan_1031 | Completed channel traversal for flit 311.
+115 | network_0/router_11_10 | Received flit 307 from channel at input 2.
+115 | network_0/router_13_8 | Received flit 315 from channel at input 0.
+115 | network_0/router_13_12 | Received flit 371 from channel at input 1.
+115 | network_0/Hub_7 | Received flit 311 from channel at input 0.
+115 | network_0/router_11_10 | Adding flit 307 to VC 0 at input 2 (state: active, front: 304).
+115 | network_0/router_13_8 | Adding flit 315 to VC 0 at input 0 (state: active, front: 312).
+115 | network_0/router_13_12 | Adding flit 371 to VC 0 at input 1 (state: active, front: 368).
+115 | network_0/Hub_7 | Adding flit 311 to VC 1 at input 0 (state: idle, front: 308).
+115 | network_0/Hub_7 | Received tail at hub 7 hub ready status : 1 bcast outqueue front flit 311 remaining 0
+115 | network_0/Hub_7 |  Conditions failed : Token 0 Ready to Send 1 Ready to receive 1 space left in interdest 0
+117 | network_0/Hub_7 |  Conditions failed : Token 1 Ready to Send 1 Ready to receive 1 space left in interdest 0
+117 | network_0/Hub_7 | Completed Hub Traversal for VC 1 at input 0 (front: 311).
+Send out tail at hub 7 hub ready status : 0
+117 | node218 | Enqueuing Duplicate flit 383 (packet 95) at time 113.
+117 | node218 | Enqueuing Duplicate flit 387 (packet 96) at time 113.
+117 | node218 | Enqueuing Duplicate flit 391 (packet 97) at time 113.
+117 | node218 | Enqueuing Duplicate flit 395 (packet 98) at time 113.
+117 | node218 | Enqueuing Duplicate flit 399 (packet 99) at time 113.
+117 | node218 | Enqueuing Duplicate flit 403 (packet 100) at time 113.
+117 | network_0/Hub_7 | Sending flit 383 to channel at output 1.
+117 | network_0/Hub_7 | Sending flit 387 to channel at output 2.
+117 | network_0/Hub_7 | Sending flit 391 to channel at output 3.
+117 | network_0/Hub_7 | Sending flit 395 to channel at output 4.
+117 | network_0/Hub_7 | Sending flit 399 to channel at output 5.
+117 | network_0/Hub_7 | Sending flit 403 to channel at output 6.
+117 | network_0/Hub_7 | Sending flit 311 to channel at output 7.
+118 | network_0/network_0_pay_chan_49 | Beginning channel traversal for payload 383 with delay 1.
+118 | network_0/network_0_pay_chan_50 | Beginning channel traversal for payload 387 with delay 1.
+118 | network_0/network_0_pay_chan_51 | Beginning channel traversal for payload 391 with delay 1.
+118 | network_0/network_0_pay_chan_52 | Beginning channel traversal for payload 395 with delay 1.
+118 | network_0/network_0_pay_chan_53 | Beginning channel traversal for payload 399 with delay 1.
+118 | network_0/network_0_pay_chan_54 | Beginning channel traversal for payload 403 with delay 1.
+118 | network_0/network_0_pay_chan_55 | Beginning channel traversal for payload 311 with delay 1.
+118 | network_0/router_11_10 | Beginning switch allocation for VC 0 at input 2 (front: 307).
+118 | network_0/router_11_10 |   Requesting output 3.0 (non-spec, pri: 0).
+118 | network_0/router_11_10 | Assigning output 3.0 to VC 0 at input 2.0.
+118 | network_0/router_11_10 | Completed switch allocation for VC 0 at input 2 (front: 307).
+118 | network_0/router_11_10 |   Scheduling switch connection from input 2.0 to output 3.0.
+118 | node218 | Enqueuing Duplicate flit 307 (packet 76) at time 113.
+118 | Egress original flit 307 (packet 76) at output port3.
+118 | network_0/router_11_10 | Beginning crossbar traversal for flit 307 from input 2.0 to output 3.0.
+118 | network_0/router_11_10 | Completed crossbar traversal for flit 307 from input 2.0 to output 3.0.
+118 | network_0/router_11_10 | Buffering flit 307 at output 3.
+118 | network_0/router_13_8 | Beginning switch allocation for VC 0 at input 0 (front: 315).
+118 | network_0/router_13_8 |   Requesting output 3.0 (non-spec, pri: 0).
+118 | network_0/router_13_8 | Assigning output 3.0 to VC 0 at input 0.0.
+118 | network_0/router_13_8 | Completed switch allocation for VC 0 at input 0 (front: 315).
+118 | network_0/router_13_8 |   Scheduling switch connection from input 0.0 to output 3.0.
+118 | node218 | Enqueuing Duplicate flit 315 (packet 78) at time 113.
+118 | Egress original flit 315 (packet 78) at output port3.
+118 | network_0/router_13_8 | Beginning crossbar traversal for flit 315 from input 0.0 to output 3.0.
+118 | network_0/router_13_8 | Completed crossbar traversal for flit 315 from input 0.0 to output 3.0.
+118 | network_0/router_13_8 | Buffering flit 315 at output 3.
+118 | network_0/router_13_12 | Beginning switch allocation for VC 0 at input 1 (front: 371).
+118 | network_0/router_13_12 |   Requesting output 0.0 (non-spec, pri: 0).
+118 | network_0/router_13_12 | Assigning output 0.0 to VC 0 at input 1.0.
+118 | network_0/router_13_12 | Completed switch allocation for VC 0 at input 1 (front: 371).
+118 | network_0/router_13_12 |   Scheduling switch connection from input 1.0 to output 0.0.
+118 | node218 | Enqueuing Duplicate flit 371 (packet 92) at time 113.
+118 | Egress original flit 371 (packet 92) at output port0.
+118 | network_0/router_13_12 | Beginning crossbar traversal for flit 371 from input 1.0 to output 0.0.
+118 | network_0/router_13_12 | Completed crossbar traversal for flit 371 from input 1.0 to output 0.0.
+118 | network_0/router_13_12 | Buffering flit 371 at output 0.
+118 | network_0/network_0_pay_chan_49 | Completed channel traversal for payload 383.
+118 | network_0/network_0_pay_chan_50 | Completed channel traversal for payload 387.
+118 | network_0/network_0_pay_chan_51 | Completed channel traversal for payload 391.
+118 | network_0/network_0_pay_chan_52 | Completed channel traversal for payload 395.
+118 | network_0/network_0_pay_chan_53 | Completed channel traversal for payload 399.
+118 | network_0/network_0_pay_chan_54 | Completed channel traversal for payload 403.
+118 | network_0/network_0_pay_chan_55 | Completed channel traversal for payload 311.
+118 | network_0/router_11_10 | Sending flit 307 to channel at output 3.
+118 | network_0/router_13_8 | Sending flit 315 to channel at output 3.
+118 | network_0/router_13_12 | Sending flit 371 to channel at output 0.
+119 | network_0/network_0_fchan_747 | Beginning channel traversal for flit 307 with delay 1.
+119 | network_0/network_0_fchan_867 | Beginning channel traversal for flit 315 with delay 1.
+119 | network_0/network_0_fchan_880 | Beginning channel traversal for flit 371 with delay 1.
+119 | network_0/Hub_0 | Received flit 383 from channel at input 7.
+119 | network_0/Hub_1 | Received flit 387 from channel at input 7.
+119 | network_0/Hub_2 | Received flit 391 from channel at input 7.
+119 | network_0/Hub_3 | Received flit 395 from channel at input 7.
+119 | network_0/Hub_4 | Received flit 399 from channel at input 7.
+119 | network_0/Hub_5 | Received flit 403 from channel at input 7.
+119 | network_0/Hub_6 | Received flit 311 from channel at input 7.
+119 | network_0/Hub_0 | Adding flit 383to receive queue
+119 | network_0/Hub_1 | Adding flit 387to receive queue
+119 | network_0/Hub_3 | Adding flit 395to receive queue
+119 | network_0/Hub_4 | Adding flit 399to receive queue
+119 | network_0/network_0_fchan_747 | Completed channel traversal for flit 307.
+119 | network_0/network_0_fchan_867 | Completed channel traversal for flit 315.
+119 | network_0/network_0_fchan_880 | Completed channel traversal for flit 371.
+120 | network_0/router_10_10 | Received flit 307 from channel at input 2.
+120 | network_0/router_12_8 | Received flit 315 from channel at input 2.
+120 | network_0/router_13_13 | Received flit 371 from channel at input 1.
+120 | Dropped flit 391 (packet 97).
+120 | node2 | Retiring flit 391 (packet 97, src = 218, dest = -1, hops = 0, flat = -114).
+120 | Dropped flit 403 (packet 100).
+120 | node5 | Retiring flit 403 (packet 100, src = 218, dest = -1, hops = 0, flat = -114).
+120 | Dropped flit 311 (packet 77).
+120 | node6 | Retiring flit 311 (packet 77, src = 218, dest = -1, hops = 3, flat = -114).
+120 | network_0/router_10_10 | Adding flit 307 to VC 0 at input 2 (state: active, front: 304).
+120 | network_0/router_12_8 | Adding flit 315 to VC 0 at input 2 (state: active, front: 312).
+120 | network_0/router_13_13 | Adding flit 371 to VC 0 at input 1 (state: active, front: 368).
+123 | network_0/router_10_10 | Beginning switch allocation for VC 0 at input 2 (front: 307).
+123 | network_0/router_10_10 |   Requesting output 3.0 (non-spec, pri: 0).
+123 | network_0/router_10_10 | Assigning output 3.0 to VC 0 at input 2.0.
+123 | network_0/router_10_10 | Completed switch allocation for VC 0 at input 2 (front: 307).
+123 | network_0/router_10_10 |   Scheduling switch connection from input 2.0 to output 3.0.
+123 | node218 | Enqueuing Duplicate flit 307 (packet 76) at time 118.
+123 | Egress original flit 307 (packet 76) at output port3.
+123 | network_0/router_10_10 | Beginning crossbar traversal for flit 307 from input 2.0 to output 3.0.
+123 | network_0/router_10_10 | Completed crossbar traversal for flit 307 from input 2.0 to output 3.0.
+123 | network_0/router_10_10 | Buffering flit 307 at output 3.
+123 | network_0/router_12_8 | Beginning switch allocation for VC 0 at input 2 (front: 315).
+123 | network_0/router_12_8 |   Requesting output 3.0 (non-spec, pri: 0).
+123 | network_0/router_12_8 | Assigning output 3.0 to VC 0 at input 2.0.
+123 | network_0/router_12_8 | Completed switch allocation for VC 0 at input 2 (front: 315).
+123 | network_0/router_12_8 |   Scheduling switch connection from input 2.0 to output 3.0.
+123 | node218 | Enqueuing Duplicate flit 315 (packet 78) at time 118.
+123 | Egress original flit 315 (packet 78) at output port3.
+123 | network_0/router_12_8 | Beginning crossbar traversal for flit 315 from input 2.0 to output 3.0.
+123 | network_0/router_12_8 | Completed crossbar traversal for flit 315 from input 2.0 to output 3.0.
+123 | network_0/router_12_8 | Buffering flit 315 at output 3.
+123 | network_0/router_13_13 | Beginning switch allocation for VC 0 at input 1 (front: 371).
+123 | network_0/router_13_13 |   Requesting output 2.0 (non-spec, pri: 0).
+123 | network_0/router_13_13 | Assigning output 2.0 to VC 0 at input 1.0.
+123 | network_0/router_13_13 | Completed switch allocation for VC 0 at input 1 (front: 371).
+123 | network_0/router_13_13 |   Scheduling switch connection from input 1.0 to output 2.0.
+123 | node218 | Enqueuing Duplicate flit 371 (packet 92) at time 118.
+123 | Egress original flit 371 (packet 92) at output port2.
+123 | network_0/router_13_13 | Beginning crossbar traversal for flit 371 from input 1.0 to output 2.0.
+123 | network_0/router_13_13 | Completed crossbar traversal for flit 371 from input 1.0 to output 2.0.
+123 | network_0/router_13_13 | Buffering flit 371 at output 2.
+123 | network_0/Hub_0 | Beginning crossbar traversal for flit 383 from input 7.0 to output 0.0.
+123 | network_0/Hub_0 | Completed crossbar traversal for flit 383 from input 7.0 to output 0.0.
+123 | network_0/Hub_0 | Buffering flit 383 at output 0.
+123 | network_0/Hub_1 | Beginning crossbar traversal for flit 387 from input 7.0 to output 0.0.
+123 | network_0/Hub_1 | Completed crossbar traversal for flit 387 from input 7.0 to output 0.0.
+123 | network_0/Hub_1 | Buffering flit 387 at output 0.
+123 | network_0/Hub_3 | Beginning crossbar traversal for flit 395 from input 7.0 to output 0.0.
+123 | network_0/Hub_3 | Completed crossbar traversal for flit 395 from input 7.0 to output 0.0.
+123 | network_0/Hub_3 | Buffering flit 395 at output 0.
+123 | network_0/Hub_4 | Beginning crossbar traversal for flit 399 from input 7.0 to output 0.0.
+123 | network_0/Hub_4 | Completed crossbar traversal for flit 399 from input 7.0 to output 0.0.
+123 | network_0/Hub_4 | Buffering flit 399 at output 0.
+123 | network_0/router_10_10 | Sending flit 307 to channel at output 3.
+123 | network_0/router_12_8 | Sending flit 315 to channel at output 3.
+123 | network_0/router_13_13 | Sending flit 371 to channel at output 2.
+123 | network_0/Hub_0 | Sending flit 383 to channel at output 0.
+123 | network_0/Hub_1 | Sending flit 387 to channel at output 0.
+123 | network_0/Hub_3 | Sending flit 395 to channel at output 0.
+123 | network_0/Hub_4 | Sending flit 399 to channel at output 0.
+124 | network_0/network_0_fchan_683 | Beginning channel traversal for flit 307 with delay 1.
+124 | network_0/network_0_fchan_803 | Beginning channel traversal for flit 315 with delay 1.
+124 | network_0/network_0_fchan_886 | Beginning channel traversal for flit 371 with delay 1.
+124 | network_0/network_0_fchan_1032 | Beginning channel traversal for flit 383 with delay 1.
+124 | network_0/network_0_fchan_1033 | Beginning channel traversal for flit 387 with delay 1.
+124 | network_0/network_0_fchan_1035 | Beginning channel traversal for flit 395 with delay 1.
+124 | network_0/network_0_fchan_1036 | Beginning channel traversal for flit 399 with delay 1.
+124 | network_0/network_0_fchan_683 | Completed channel traversal for flit 307.
+124 | network_0/network_0_fchan_803 | Completed channel traversal for flit 315.
+124 | network_0/network_0_fchan_886 | Completed channel traversal for flit 371.
+124 | network_0/network_0_fchan_1032 | Completed channel traversal for flit 383.
+124 | network_0/network_0_fchan_1033 | Completed channel traversal for flit 387.
+124 | network_0/network_0_fchan_1035 | Completed channel traversal for flit 395.
+124 | network_0/network_0_fchan_1036 | Completed channel traversal for flit 399.
+125 | network_0/router_1_3 | Received flit 383 from channel at input 5.
+125 | network_0/router_1_11 | Received flit 387 from channel at input 5.
+125 | network_0/router_5_11 | Received flit 395 from channel at input 5.
+125 | network_0/router_9_3 | Received flit 399 from channel at input 5.
+125 | network_0/router_9_10 | Received flit 307 from channel at input 2.
+125 | network_0/router_11_8 | Received flit 315 from channel at input 2.
+125 | network_0/router_14_13 | Received flit 371 from channel at input 3.
+125 | network_0/router_1_3 | Adding flit 383 to VC 0 at input 5 (state: active, front: 380).
+125 | network_0/router_1_11 | Adding flit 387 to VC 0 at input 5 (state: active, front: 384).
+125 | network_0/router_5_11 | Adding flit 395 to VC 0 at input 5 (state: active, front: 392).
+125 | network_0/router_9_3 | Adding flit 399 to VC 0 at input 5 (state: active, front: 396).
+125 | network_0/router_9_10 | Adding flit 307 to VC 0 at input 2 (state: active, front: 304).
+125 | network_0/router_11_8 | Adding flit 315 to VC 0 at input 2 (state: active, front: 312).
+125 | network_0/router_14_13 | Adding flit 371 to VC 0 at input 3 (state: active, front: 368).
+128 | network_0/router_1_3 | Beginning switch allocation for VC 0 at input 5 (front: 383).
+128 | network_0/router_1_3 |   Requesting output 2.0 (non-spec, pri: 0).
+128 | network_0/router_1_3 | Assigning output 2.0 to VC 0 at input 5.0.
+128 | network_0/router_1_3 | Completed switch allocation for VC 0 at input 5 (front: 383).
+128 | network_0/router_1_3 |   Scheduling switch connection from input 5.0 to output 2.0.
+128 | node218 | Enqueuing Duplicate flit 383 (packet 95) at time 113.
+128 | Egress original flit 383 (packet 95) at output port2.
+128 | network_0/router_1_3 | Beginning crossbar traversal for flit 383 from input 5.0 to output 2.0.
+128 | network_0/router_1_3 | Completed crossbar traversal for flit 383 from input 5.0 to output 2.0.
+128 | network_0/router_1_3 | Buffering flit 383 at output 2.
+128 | network_0/router_1_11 | Beginning switch allocation for VC 0 at input 5 (front: 387).
+128 | network_0/router_1_11 |   Requesting output 1.0 (non-spec, pri: 0).
+128 | network_0/router_1_11 | Assigning output 1.0 to VC 0 at input 5.0.
+128 | network_0/router_1_11 | Completed switch allocation for VC 0 at input 5 (front: 387).
+128 | network_0/router_1_11 |   Scheduling switch connection from input 5.0 to output 1.0.
+128 | node218 | Enqueuing Duplicate flit 387 (packet 96) at time 113.
+128 | Egress original flit 387 (packet 96) at output port1.
+128 | network_0/router_1_11 | Beginning crossbar traversal for flit 387 from input 5.0 to output 1.0.
+128 | network_0/router_1_11 | Completed crossbar traversal for flit 387 from input 5.0 to output 1.0.
+128 | network_0/router_1_11 | Buffering flit 387 at output 1.
+128 | network_0/router_5_11 | Beginning switch allocation for VC 0 at input 5 (front: 395).
+128 | network_0/router_5_11 |   Requesting output 2.0 (non-spec, pri: 0).
+128 | network_0/router_5_11 | Assigning output 2.0 to VC 0 at input 5.0.
+128 | network_0/router_5_11 | Completed switch allocation for VC 0 at input 5 (front: 395).
+128 | network_0/router_5_11 |   Scheduling switch connection from input 5.0 to output 2.0.
+128 | node218 | Enqueuing Duplicate flit 395 (packet 98) at time 113.
+128 | Egress original flit 395 (packet 98) at output port2.
+128 | network_0/router_5_11 | Beginning crossbar traversal for flit 395 from input 5.0 to output 2.0.
+128 | network_0/router_5_11 | Completed crossbar traversal for flit 395 from input 5.0 to output 2.0.
+128 | network_0/router_5_11 | Buffering flit 395 at output 2.
+128 | network_0/router_9_3 | Beginning switch allocation for VC 0 at input 5 (front: 399).
+128 | network_0/router_9_3 |   Requesting output 1.0 (non-spec, pri: 0).
+128 | network_0/router_9_3 | Assigning output 1.0 to VC 0 at input 5.0.
+128 | network_0/router_9_3 | Completed switch allocation for VC 0 at input 5 (front: 399).
+128 | network_0/router_9_3 |   Scheduling switch connection from input 5.0 to output 1.0.
+128 | node218 | Enqueuing Duplicate flit 399 (packet 99) at time 113.
+128 | Egress original flit 399 (packet 99) at output port1.
+128 | network_0/router_9_3 | Beginning crossbar traversal for flit 399 from input 5.0 to output 1.0.
+128 | network_0/router_9_3 | Completed crossbar traversal for flit 399 from input 5.0 to output 1.0.
+128 | network_0/router_9_3 | Buffering flit 399 at output 1.
+128 | network_0/router_9_10 | Beginning switch allocation for VC 0 at input 2 (front: 307).
+128 | network_0/router_9_10 |   Requesting output 3.0 (non-spec, pri: 0).
+128 | network_0/router_9_10 | Assigning output 3.0 to VC 0 at input 2.0.
+128 | network_0/router_9_10 | Completed switch allocation for VC 0 at input 2 (front: 307).
+128 | network_0/router_9_10 |   Scheduling switch connection from input 2.0 to output 3.0.
+128 | node218 | Enqueuing Duplicate flit 307 (packet 76) at time 123.
+128 | Egress original flit 307 (packet 76) at output port3.
+128 | network_0/router_9_10 | Beginning crossbar traversal for flit 307 from input 2.0 to output 3.0.
+128 | network_0/router_9_10 | Completed crossbar traversal for flit 307 from input 2.0 to output 3.0.
+128 | network_0/router_9_10 | Buffering flit 307 at output 3.
+128 | network_0/router_11_8 | Beginning switch allocation for VC 0 at input 2 (front: 315).
+128 | network_0/router_11_8 |   Requesting output 3.0 (non-spec, pri: 0).
+128 | network_0/router_11_8 | Beginning switch allocation for VC 0 at input 2 (front: 315).
+128 | network_0/router_11_8 |   Requesting output 4.0 (non-spec, pri: 0).
+128 | network_0/router_11_8 | Assigning output 3.0 to VC 0 at input 2.0.
+128 | network_0/router_11_8 | Assigning output 4.0 to VC 0 at input 2.0.
+128 | network_0/router_11_8 | Completed switch allocation for VC 0 at input 2 (front: 315).
+128 | network_0/router_11_8 |   Scheduling switch connection from input 2.0 to output 3.0.
+128 | node218 | Enqueuing Duplicate flit 439 (packet 109) at time 123.
+128 | Egress Duplicate flit 439 (packet 109) at output port3.
+128 | network_0/router_11_8 | Completed switch allocation for VC 0 at input 2 (front: 315).
+128 | network_0/router_11_8 |   Scheduling switch connection from input 2.0 to output 4.0.
+128 | node218 | Enqueuing Duplicate flit 315 (packet 78) at time 123.
+128 | Egress original flit 315 (packet 78) at output port4.
+128 | network_0/router_11_8 | Beginning crossbar traversal for flit 439 from input 2.0 to output 3.0.
+128 | network_0/router_11_8 | Beginning crossbar traversal for flit 315 from input 2.0 to output 4.0.
+128 | network_0/router_11_8 | Completed crossbar traversal for flit 439 from input 2.0 to output 3.0.
+128 | network_0/router_11_8 | Buffering flit 439 at output 3.
+128 | network_0/router_11_8 | Completed crossbar traversal for flit 315 from input 2.0 to output 4.0.
+128 | network_0/router_11_8 | Buffering flit 315 at output 4.
+128 | network_0/router_14_13 | Beginning switch allocation for VC 0 at input 3 (front: 371).
+128 | network_0/router_14_13 |   Requesting output 4.0 (non-spec, pri: 0).
+128 | network_0/router_14_13 | Assigning output 4.0 to VC 0 at input 3.0.
+128 | network_0/router_14_13 | Completed switch allocation for VC 0 at input 3 (front: 371).
+128 | network_0/router_14_13 |   Scheduling switch connection from input 3.0 to output 4.0.
+128 | node218 | Enqueuing Duplicate flit 371 (packet 92) at time 123.
+128 | Egress original flit 371 (packet 92) at output port4.
+128 | network_0/router_14_13 | Beginning crossbar traversal for flit 371 from input 3.0 to output 4.0.
+128 | network_0/router_14_13 | Completed crossbar traversal for flit 371 from input 3.0 to output 4.0.
+128 | network_0/router_14_13 | Buffering flit 371 at output 4.
+128 | network_0/router_1_3 | Sending flit 383 to channel at output 2.
+128 | network_0/router_1_11 | Sending flit 387 to channel at output 1.
+128 | network_0/router_5_11 | Sending flit 395 to channel at output 2.
+128 | network_0/router_9_3 | Sending flit 399 to channel at output 1.
+128 | network_0/router_9_10 | Sending flit 307 to channel at output 3.
+128 | network_0/router_11_8 | Sending flit 439 to channel at output 3.
+128 | network_0/router_11_8 | Sending flit 315 to channel at output 4.
+128 | network_0/router_14_13 | Sending flit 371 to channel at output 4.
+129 | network_0/network_0_fchan_egress184 | Beginning channel traversal for flit 315 with delay 1.
+129 | network_0/network_0_fchan_egress237 | Beginning channel traversal for flit 371 with delay 1.
+129 | network_0/network_0_fchan_78 | Beginning channel traversal for flit 383 with delay 1.
+129 | network_0/network_0_fchan_109 | Beginning channel traversal for flit 387 with delay 1.
+129 | network_0/network_0_fchan_366 | Beginning channel traversal for flit 395 with delay 1.
+129 | network_0/network_0_fchan_589 | Beginning channel traversal for flit 399 with delay 1.
+129 | network_0/network_0_fchan_619 | Beginning channel traversal for flit 307 with delay 1.
+129 | network_0/network_0_fchan_739 | Beginning channel traversal for flit 439 with delay 1.
+129 | network_0/network_0_fchan_egress184 | Completed channel traversal for flit 315.
+129 | network_0/network_0_fchan_egress237 | Completed channel traversal for flit 371.
+129 | network_0/network_0_fchan_78 | Completed channel traversal for flit 383.
+129 | network_0/network_0_fchan_109 | Completed channel traversal for flit 387.
+129 | network_0/network_0_fchan_366 | Completed channel traversal for flit 395.
+129 | network_0/network_0_fchan_589 | Completed channel traversal for flit 399.
+129 | network_0/network_0_fchan_619 | Completed channel traversal for flit 307.
+129 | network_0/network_0_fchan_739 | Completed channel traversal for flit 439.
+130 | node184 | Ejecting flit 315 (packet 78) from VC 0.
+130 | node237 | Ejecting flit 371 (packet 92) from VC 0.
+130 | network_0/router_1_10 | Received flit 387 from channel at input 0.
+130 | network_0/router_2_3 | Received flit 383 from channel at input 3.
+130 | network_0/router_6_11 | Received flit 395 from channel at input 3.
+130 | network_0/router_8_10 | Received flit 307 from channel at input 2.
+130 | network_0/router_9_2 | Received flit 399 from channel at input 0.
+130 | network_0/router_10_8 | Received flit 439 from channel at input 2.
+130 | node184 | Injecting credit for VC 0 into subnet 0.
+130 | node184 | Retiring flit 315 (packet 78, src = 218, dest = 184, hops = 5, flat = 2).
+130 | node184 | Retiring packet 78 (plat = 5, nlat = 5, frag = 0, src = 218, dest = 184).
+130 | node237 | Injecting credit for VC 0 into subnet 0.
+130 | node237 | Retiring flit 371 (packet 92, src = 218, dest = 237, hops = 4, flat = 2).
+130 | node237 | Retiring packet 92 (plat = 5, nlat = 5, frag = 0, src = 218, dest = 237).
+130 | network_0/router_1_10 | Adding flit 387 to VC 0 at input 0 (state: active, front: 384).
+130 | network_0/router_2_3 | Adding flit 383 to VC 0 at input 3 (state: active, front: 380).
+130 | network_0/router_6_11 | Adding flit 395 to VC 0 at input 3 (state: active, front: 392).
+130 | network_0/router_8_10 | Adding flit 307 to VC 0 at input 2 (state: active, front: 304).
+130 | network_0/router_9_2 | Adding flit 399 to VC 0 at input 0 (state: active, front: 396).
+130 | network_0/router_10_8 | Adding flit 439 to VC 0 at input 2 (state: active, front: 436).
+133 | network_0/router_1_10 | Beginning switch allocation for VC 0 at input 0 (front: 387).
+133 | network_0/router_1_10 |   Requesting output 1.0 (non-spec, pri: 0).
+133 | network_0/router_1_10 | Assigning output 1.0 to VC 0 at input 0.0.
+133 | network_0/router_1_10 | Completed switch allocation for VC 0 at input 0 (front: 387).
+133 | network_0/router_1_10 |   Scheduling switch connection from input 0.0 to output 1.0.
+133 | node218 | Enqueuing Duplicate flit 387 (packet 96) at time 128.
+133 | Egress original flit 387 (packet 96) at output port1.
+133 | network_0/router_1_10 | Beginning crossbar traversal for flit 387 from input 0.0 to output 1.0.
+133 | network_0/router_1_10 | Completed crossbar traversal for flit 387 from input 0.0 to output 1.0.
+133 | network_0/router_1_10 | Buffering flit 387 at output 1.
+133 | network_0/router_2_3 | Beginning switch allocation for VC 0 at input 3 (front: 383).
+133 | network_0/router_2_3 |   Requesting output 4.0 (non-spec, pri: 0).
+133 | network_0/router_2_3 | Assigning output 4.0 to VC 0 at input 3.0.
+133 | network_0/router_2_3 | Completed switch allocation for VC 0 at input 3 (front: 383).
+133 | network_0/router_2_3 |   Scheduling switch connection from input 3.0 to output 4.0.
+133 | node218 | Enqueuing Duplicate flit 383 (packet 95) at time 128.
+133 | Egress original flit 383 (packet 95) at output port4.
+133 | network_0/router_2_3 | Beginning crossbar traversal for flit 383 from input 3.0 to output 4.0.
+133 | network_0/router_2_3 | Completed crossbar traversal for flit 383 from input 3.0 to output 4.0.
+133 | network_0/router_2_3 | Buffering flit 383 at output 4.
+133 | network_0/router_6_11 | Beginning switch allocation for VC 0 at input 3 (front: 395).
+133 | network_0/router_6_11 |   Requesting output 2.0 (non-spec, pri: 0).
+133 | network_0/router_6_11 | Assigning output 2.0 to VC 0 at input 3.0.
+133 | network_0/router_6_11 | Completed switch allocation for VC 0 at input 3 (front: 395).
+133 | network_0/router_6_11 |   Scheduling switch connection from input 3.0 to output 2.0.
+133 | node218 | Enqueuing Duplicate flit 395 (packet 98) at time 128.
+133 | Egress original flit 395 (packet 98) at output port2.
+133 | network_0/router_6_11 | Beginning crossbar traversal for flit 395 from input 3.0 to output 2.0.
+133 | network_0/router_6_11 | Completed crossbar traversal for flit 395 from input 3.0 to output 2.0.
+133 | network_0/router_6_11 | Buffering flit 395 at output 2.
+133 | network_0/router_8_10 | Beginning switch allocation for VC 0 at input 2 (front: 307).
+133 | network_0/router_8_10 |   Requesting output 3.0 (non-spec, pri: 0).
+133 | network_0/router_8_10 | Assigning output 3.0 to VC 0 at input 2.0.
+133 | network_0/router_8_10 | Completed switch allocation for VC 0 at input 2 (front: 307).
+133 | network_0/router_8_10 |   Scheduling switch connection from input 2.0 to output 3.0.
+133 | node218 | Enqueuing Duplicate flit 307 (packet 76) at time 128.
+133 | Egress original flit 307 (packet 76) at output port3.
+133 | network_0/router_8_10 | Beginning crossbar traversal for flit 307 from input 2.0 to output 3.0.
+133 | network_0/router_8_10 | Completed crossbar traversal for flit 307 from input 2.0 to output 3.0.
+133 | network_0/router_8_10 | Buffering flit 307 at output 3.
+133 | network_0/router_9_2 | Beginning switch allocation for VC 0 at input 0 (front: 399).
+133 | network_0/router_9_2 |   Requesting output 2.0 (non-spec, pri: 0).
+133 | network_0/router_9_2 | Assigning output 2.0 to VC 0 at input 0.0.
+133 | network_0/router_9_2 | Completed switch allocation for VC 0 at input 0 (front: 399).
+133 | network_0/router_9_2 |   Scheduling switch connection from input 0.0 to output 2.0.
+133 | node218 | Enqueuing Duplicate flit 399 (packet 99) at time 128.
+133 | Egress original flit 399 (packet 99) at output port2.
+133 | network_0/router_9_2 | Beginning crossbar traversal for flit 399 from input 0.0 to output 2.0.
+133 | network_0/router_9_2 | Completed crossbar traversal for flit 399 from input 0.0 to output 2.0.
+133 | network_0/router_9_2 | Buffering flit 399 at output 2.
+133 | network_0/router_10_8 | Beginning switch allocation for VC 0 at input 2 (front: 439).
+133 | network_0/router_10_8 |   Requesting output 3.0 (non-spec, pri: 0).
+133 | network_0/router_10_8 | Assigning output 3.0 to VC 0 at input 2.0.
+133 | network_0/router_10_8 | Completed switch allocation for VC 0 at input 2 (front: 439).
+133 | network_0/router_10_8 |   Scheduling switch connection from input 2.0 to output 3.0.
+133 | node218 | Enqueuing Duplicate flit 439 (packet 109) at time 128.
+133 | Egress original flit 439 (packet 109) at output port3.
+133 | network_0/router_10_8 | Beginning crossbar traversal for flit 439 from input 2.0 to output 3.0.
+133 | network_0/router_10_8 | Completed crossbar traversal for flit 439 from input 2.0 to output 3.0.
+133 | network_0/router_10_8 | Buffering flit 439 at output 3.
+133 | network_0/router_1_10 | Sending flit 387 to channel at output 1.
+133 | network_0/router_2_3 | Sending flit 383 to channel at output 4.
+133 | network_0/router_6_11 | Sending flit 395 to channel at output 2.
+133 | network_0/router_8_10 | Sending flit 307 to channel at output 3.
+133 | network_0/router_9_2 | Sending flit 399 to channel at output 2.
+133 | network_0/router_10_8 | Sending flit 439 to channel at output 3.
+134 | network_0/network_0_fchan_egress35 | Beginning channel traversal for flit 383 with delay 1.
+134 | network_0/network_0_fchan_105 | Beginning channel traversal for flit 387 with delay 1.
+134 | network_0/network_0_fchan_430 | Beginning channel traversal for flit 395 with delay 1.
+134 | network_0/network_0_fchan_555 | Beginning channel traversal for flit 307 with delay 1.
+134 | network_0/network_0_fchan_586 | Beginning channel traversal for flit 399 with delay 1.
+134 | network_0/network_0_fchan_675 | Beginning channel traversal for flit 439 with delay 1.
+134 | network_0/network_0_fchan_egress35 | Completed channel traversal for flit 383.
+134 | network_0/network_0_fchan_105 | Completed channel traversal for flit 387.
+134 | network_0/network_0_fchan_430 | Completed channel traversal for flit 395.
+134 | network_0/network_0_fchan_555 | Completed channel traversal for flit 307.
+134 | network_0/network_0_fchan_586 | Completed channel traversal for flit 399.
+134 | network_0/network_0_fchan_675 | Completed channel traversal for flit 439.
+135 | node35 | Ejecting flit 383 (packet 95) from VC 0.
+135 | network_0/router_1_9 | Received flit 387 from channel at input 0.
+135 | network_0/router_7_10 | Received flit 307 from channel at input 2.
+135 | network_0/router_7_11 | Received flit 395 from channel at input 3.
+135 | network_0/router_9_8 | Received flit 439 from channel at input 2.
+135 | network_0/router_10_2 | Received flit 399 from channel at input 3.
+135 | node35 | Injecting credit for VC 0 into subnet 0.
+135 | node35 | Retiring flit 383 (packet 95, src = 218, dest = 35, hops = 3, flat = 2).
+135 | node35 | Retiring packet 95 (plat = 5, nlat = 5, frag = 0, src = 218, dest = 35).
+135 | network_0/router_1_9 | Adding flit 387 to VC 0 at input 0 (state: active, front: 384).
+135 | network_0/router_7_10 | Adding flit 307 to VC 0 at input 2 (state: active, front: 304).
+135 | network_0/router_7_11 | Adding flit 395 to VC 0 at input 3 (state: active, front: 392).
+135 | network_0/router_9_8 | Adding flit 439 to VC 0 at input 2 (state: active, front: 436).
+135 | network_0/router_10_2 | Adding flit 399 to VC 0 at input 3 (state: active, front: 396).
+138 | network_0/router_1_9 | Beginning switch allocation for VC 0 at input 0 (front: 387).
+138 | network_0/router_1_9 |   Requesting output 1.0 (non-spec, pri: 0).
+138 | network_0/router_1_9 | Assigning output 1.0 to VC 0 at input 0.0.
+138 | network_0/router_1_9 | Completed switch allocation for VC 0 at input 0 (front: 387).
+138 | network_0/router_1_9 |   Scheduling switch connection from input 0.0 to output 1.0.
+138 | node218 | Enqueuing Duplicate flit 387 (packet 96) at time 133.
+138 | Egress original flit 387 (packet 96) at output port1.
+138 | network_0/router_1_9 | Beginning crossbar traversal for flit 387 from input 0.0 to output 1.0.
+138 | network_0/router_1_9 | Completed crossbar traversal for flit 387 from input 0.0 to output 1.0.
+138 | network_0/router_1_9 | Buffering flit 387 at output 1.
+138 | network_0/router_7_10 | Beginning switch allocation for VC 0 at input 2 (front: 307).
+138 | network_0/router_7_10 |   Requesting output 4.0 (non-spec, pri: 0).
+138 | network_0/router_7_10 | Assigning output 4.0 to VC 0 at input 2.0.
+138 | network_0/router_7_10 | Completed switch allocation for VC 0 at input 2 (front: 307).
+138 | network_0/router_7_10 |   Scheduling switch connection from input 2.0 to output 4.0.
+138 | node218 | Enqueuing Duplicate flit 307 (packet 76) at time 133.
+138 | Egress original flit 307 (packet 76) at output port4.
+138 | network_0/router_7_10 | Beginning crossbar traversal for flit 307 from input 2.0 to output 4.0.
+138 | network_0/router_7_10 | Completed crossbar traversal for flit 307 from input 2.0 to output 4.0.
+138 | network_0/router_7_10 | Buffering flit 307 at output 4.
+138 | network_0/router_7_11 | Beginning switch allocation for VC 0 at input 3 (front: 395).
+138 | network_0/router_7_11 |   Requesting output 4.0 (non-spec, pri: 0).
+138 | network_0/router_7_11 | Assigning output 4.0 to VC 0 at input 3.0.
+138 | network_0/router_7_11 | Completed switch allocation for VC 0 at input 3 (front: 395).
+138 | network_0/router_7_11 |   Scheduling switch connection from input 3.0 to output 4.0.
+138 | node218 | Enqueuing Duplicate flit 395 (packet 98) at time 133.
+138 | Egress original flit 395 (packet 98) at output port4.
+138 | network_0/router_7_11 | Beginning crossbar traversal for flit 395 from input 3.0 to output 4.0.
+138 | network_0/router_7_11 | Completed crossbar traversal for flit 395 from input 3.0 to output 4.0.
+138 | network_0/router_7_11 | Buffering flit 395 at output 4.
+138 | network_0/router_9_8 | Beginning switch allocation for VC 0 at input 2 (front: 439).
+138 | network_0/router_9_8 |   Requesting output 3.0 (non-spec, pri: 0).
+138 | network_0/router_9_8 | Assigning output 3.0 to VC 0 at input 2.0.
+138 | network_0/router_9_8 | Completed switch allocation for VC 0 at input 2 (front: 439).
+138 | network_0/router_9_8 |   Scheduling switch connection from input 2.0 to output 3.0.
+138 | node218 | Enqueuing Duplicate flit 439 (packet 109) at time 133.
+138 | Egress original flit 439 (packet 109) at output port3.
+138 | network_0/router_9_8 | Beginning crossbar traversal for flit 439 from input 2.0 to output 3.0.
+138 | network_0/router_9_8 | Completed crossbar traversal for flit 439 from input 2.0 to output 3.0.
+138 | network_0/router_9_8 | Buffering flit 439 at output 3.
+138 | network_0/router_10_2 | Beginning switch allocation for VC 0 at input 3 (front: 399).
+138 | network_0/router_10_2 |   Requesting output 2.0 (non-spec, pri: 0).
+138 | network_0/router_10_2 | Assigning output 2.0 to VC 0 at input 3.0.
+138 | network_0/router_10_2 | Completed switch allocation for VC 0 at input 3 (front: 399).
+138 | network_0/router_10_2 |   Scheduling switch connection from input 3.0 to output 2.0.
+138 | node218 | Enqueuing Duplicate flit 399 (packet 99) at time 133.
+138 | Egress original flit 399 (packet 99) at output port2.
+138 | network_0/router_10_2 | Beginning crossbar traversal for flit 399 from input 3.0 to output 2.0.
+138 | network_0/router_10_2 | Completed crossbar traversal for flit 399 from input 3.0 to output 2.0.
+138 | network_0/router_10_2 | Buffering flit 399 at output 2.
+138 | network_0/router_1_9 | Sending flit 387 to channel at output 1.
+138 | network_0/router_7_10 | Sending flit 307 to channel at output 4.
+138 | network_0/router_7_11 | Sending flit 395 to channel at output 4.
+138 | network_0/router_9_8 | Sending flit 439 to channel at output 3.
+138 | network_0/router_10_2 | Sending flit 399 to channel at output 2.
+139 | network_0/network_0_fchan_egress122 | Beginning channel traversal for flit 307 with delay 1.
+139 | network_0/network_0_fchan_egress123 | Beginning channel traversal for flit 395 with delay 1.
+139 | network_0/network_0_fchan_101 | Beginning channel traversal for flit 387 with delay 1.
+139 | network_0/network_0_fchan_611 | Beginning channel traversal for flit 439 with delay 1.
+139 | network_0/network_0_fchan_650 | Beginning channel traversal for flit 399 with delay 1.
+139 | network_0/network_0_fchan_egress122 | Completed channel traversal for flit 307.
+139 | network_0/network_0_fchan_egress123 | Completed channel traversal for flit 395.
+139 | network_0/network_0_fchan_101 | Completed channel traversal for flit 387.
+139 | network_0/network_0_fchan_611 | Completed channel traversal for flit 439.
+139 | network_0/network_0_fchan_650 | Completed channel traversal for flit 399.
+140 | node122 | Ejecting flit 307 (packet 76) from VC 0.
+140 | node123 | Ejecting flit 395 (packet 98) from VC 0.
+140 | network_0/router_1_8 | Received flit 387 from channel at input 0.
+140 | network_0/router_8_8 | Received flit 439 from channel at input 2.
+140 | network_0/router_11_2 | Received flit 399 from channel at input 3.
+140 | node122 | Injecting credit for VC 0 into subnet 0.
+140 | node122 | Retiring flit 307 (packet 76, src = 218, dest = 122, hops = 7, flat = 2).
+140 | node122 | Retiring packet 76 (plat = 5, nlat = 5, frag = 0, src = 218, dest = 122).
+140 | node123 | Injecting credit for VC 0 into subnet 0.
+140 | node123 | Retiring flit 395 (packet 98, src = 218, dest = 123, hops = 4, flat = 2).
+140 | node123 | Retiring packet 98 (plat = 5, nlat = 5, frag = 0, src = 218, dest = 123).
+140 | network_0/router_1_8 | Adding flit 387 to VC 0 at input 0 (state: active, front: 384).
+140 | network_0/router_8_8 | Adding flit 439 to VC 0 at input 2 (state: active, front: 436).
+140 | network_0/router_11_2 | Adding flit 399 to VC 0 at input 3 (state: active, front: 396).
+143 | network_0/router_1_8 | Beginning switch allocation for VC 0 at input 0 (front: 387).
+143 | network_0/router_1_8 |   Requesting output 2.0 (non-spec, pri: 0).
+143 | network_0/router_1_8 | Assigning output 2.0 to VC 0 at input 0.0.
+143 | network_0/router_1_8 | Completed switch allocation for VC 0 at input 0 (front: 387).
+143 | network_0/router_1_8 |   Scheduling switch connection from input 0.0 to output 2.0.
+143 | node218 | Enqueuing Duplicate flit 387 (packet 96) at time 138.
+143 | Egress original flit 387 (packet 96) at output port2.
+143 | network_0/router_1_8 | Beginning crossbar traversal for flit 387 from input 0.0 to output 2.0.
+143 | network_0/router_1_8 | Completed crossbar traversal for flit 387 from input 0.0 to output 2.0.
+143 | network_0/router_1_8 | Buffering flit 387 at output 2.
+143 | network_0/router_8_8 | Beginning switch allocation for VC 0 at input 2 (front: 439).
+143 | network_0/router_8_8 |   Requesting output 3.0 (non-spec, pri: 0).
+143 | network_0/router_8_8 | Assigning output 3.0 to VC 0 at input 2.0.
+143 | network_0/router_8_8 | Completed switch allocation for VC 0 at input 2 (front: 439).
+143 | network_0/router_8_8 |   Scheduling switch connection from input 2.0 to output 3.0.
+143 | node218 | Enqueuing Duplicate flit 439 (packet 109) at time 138.
+143 | Egress original flit 439 (packet 109) at output port3.
+143 | network_0/router_8_8 | Beginning crossbar traversal for flit 439 from input 2.0 to output 3.0.
+143 | network_0/router_8_8 | Completed crossbar traversal for flit 439 from input 2.0 to output 3.0.
+143 | network_0/router_8_8 | Buffering flit 439 at output 3.
+143 | network_0/router_11_2 | Beginning switch allocation for VC 0 at input 3 (front: 399).
+143 | network_0/router_11_2 |   Requesting output 4.0 (non-spec, pri: 0).
+143 | network_0/router_11_2 | Assigning output 4.0 to VC 0 at input 3.0.
+143 | network_0/router_11_2 | Completed switch allocation for VC 0 at input 3 (front: 399).
+143 | network_0/router_11_2 |   Scheduling switch connection from input 3.0 to output 4.0.
+143 | node218 | Enqueuing Duplicate flit 399 (packet 99) at time 138.
+143 | Egress original flit 399 (packet 99) at output port4.
+143 | network_0/router_11_2 | Beginning crossbar traversal for flit 399 from input 3.0 to output 4.0.
+143 | network_0/router_11_2 | Completed crossbar traversal for flit 399 from input 3.0 to output 4.0.
+143 | network_0/router_11_2 | Buffering flit 399 at output 4.
+143 | network_0/router_1_8 | Sending flit 387 to channel at output 2.
+143 | network_0/router_8_8 | Sending flit 439 to channel at output 3.
+143 | network_0/router_11_2 | Sending flit 399 to channel at output 4.
+144 | network_0/network_0_fchan_egress178 | Beginning channel traversal for flit 399 with delay 1.
+144 | network_0/network_0_fchan_98 | Beginning channel traversal for flit 387 with delay 1.
+144 | network_0/network_0_fchan_547 | Beginning channel traversal for flit 439 with delay 1.
+144 | network_0/network_0_fchan_egress178 | Completed channel traversal for flit 399.
+144 | network_0/network_0_fchan_98 | Completed channel traversal for flit 387.
+144 | network_0/network_0_fchan_547 | Completed channel traversal for flit 439.
+145 | node178 | Ejecting flit 399 (packet 99) from VC 0.
+145 | network_0/router_2_8 | Received flit 387 from channel at input 3.
+145 | network_0/router_7_8 | Received flit 439 from channel at input 2.
+145 | node178 | Injecting credit for VC 0 into subnet 0.
+145 | node178 | Retiring flit 399 (packet 99, src = 218, dest = 178, hops = 5, flat = 2).
+145 | node178 | Retiring packet 99 (plat = 5, nlat = 5, frag = 0, src = 218, dest = 178).
+145 | network_0/router_2_8 | Adding flit 387 to VC 0 at input 3 (state: active, front: 384).
+145 | network_0/router_7_8 | Adding flit 439 to VC 0 at input 2 (state: active, front: 436).
+148 | network_0/router_2_8 | Beginning switch allocation for VC 0 at input 3 (front: 387).
+148 | network_0/router_2_8 |   Requesting output 4.0 (non-spec, pri: 0).
+148 | network_0/router_2_8 | Assigning output 4.0 to VC 0 at input 3.0.
+148 | network_0/router_2_8 | Completed switch allocation for VC 0 at input 3 (front: 387).
+148 | network_0/router_2_8 |   Scheduling switch connection from input 3.0 to output 4.0.
+148 | node218 | Enqueuing Duplicate flit 387 (packet 96) at time 143.
+148 | Egress original flit 387 (packet 96) at output port4.
+148 | network_0/router_2_8 | Beginning crossbar traversal for flit 387 from input 3.0 to output 4.0.
+148 | network_0/router_2_8 | Completed crossbar traversal for flit 387 from input 3.0 to output 4.0.
+148 | network_0/router_2_8 | Buffering flit 387 at output 4.
+148 | network_0/router_7_8 | Beginning switch allocation for VC 0 at input 2 (front: 439).
+148 | network_0/router_7_8 |   Requesting output 4.0 (non-spec, pri: 0).
+148 | network_0/router_7_8 | Assigning output 4.0 to VC 0 at input 2.0.
+148 | network_0/router_7_8 | Completed switch allocation for VC 0 at input 2 (front: 439).
+148 | network_0/router_7_8 |   Scheduling switch connection from input 2.0 to output 4.0.
+148 | node218 | Enqueuing Duplicate flit 439 (packet 109) at time 143.
+148 | Egress original flit 439 (packet 109) at output port4.
+148 | network_0/router_7_8 | Beginning crossbar traversal for flit 439 from input 2.0 to output 4.0.
+148 | network_0/router_7_8 | Completed crossbar traversal for flit 439 from input 2.0 to output 4.0.
+148 | network_0/router_7_8 | Buffering flit 439 at output 4.
+148 | network_0/router_2_8 | Sending flit 387 to channel at output 4.
+148 | network_0/router_7_8 | Sending flit 439 to channel at output 4.
+149 | network_0/network_0_fchan_egress40 | Beginning channel traversal for flit 387 with delay 1.
+149 | network_0/network_0_fchan_egress120 | Beginning channel traversal for flit 439 with delay 1.
+149 | network_0/network_0_fchan_egress40 | Completed channel traversal for flit 387.
+149 | network_0/network_0_fchan_egress120 | Completed channel traversal for flit 439.
+150 | node40 | Ejecting flit 387 (packet 96) from VC 0.
+150 | node120 | Ejecting flit 439 (packet 109) from VC 0.
+150 | node40 | Injecting credit for VC 0 into subnet 0.
+150 | node40 | Retiring flit 387 (packet 96, src = 218, dest = 40, hops = 6, flat = 2).
+150 | node40 | Retiring packet 96 (plat = 5, nlat = 5, frag = 0, src = 218, dest = 40).
+150 | node120 | Injecting credit for VC 0 into subnet 0.
+150 | node120 | Retiring flit 439 (packet 109, src = 218, dest = 120, hops = 5, flat = 2).
+150 | node120 | Retiring packet 109 (plat = 5, nlat = 5, frag = 0, src = 218, dest = 120).
