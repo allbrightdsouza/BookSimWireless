@@ -4,6 +4,8 @@
 # BookSimWireless
 BookSim 2 modified to provide wireless support.
 
+Unpublished paper link for the project
+https://drive.google.com/file/d/1M4mQA5itkLnNF26cNZGHCr-d38MA21_n/view?usp=sharing
 
 Presentation link for the project
 https://drive.google.com/open?id=1XgY83m7TcSxcGHZ_wDXPDZ687dowWndr
